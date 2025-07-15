@@ -17,19 +17,19 @@ int main(){
     if (choice < 1 || choice > 4){
         std::cout << "Invalid option." << std::endl;
     }
-    switch (choice) 
+    switch (choice)
     {
         case 1:
             {
             float radius;
-            float pie = 3.14159;
+            float pi = 3.14159;
             std::cout << "Please enter in the radius of the circle: ";
             std::cin >> radius;
             if (radius < 0){
                 std::cout << "Invalid measurement option." << std::endl;
             }
             else {
-            float area = pie * radius * radius;
+            float area = pi * radius * radius;
             std::cout << "The area of the circle is: " << area << std::endl;
             }
             break;
